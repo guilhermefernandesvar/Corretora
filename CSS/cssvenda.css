@@ -15,7 +15,7 @@ body {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-28%, -60%);
+    transform: translate(-30%, -60%);
 }
 
 .navigation {
@@ -136,4 +136,16 @@ a {
 
 .descricao {
     padding-top: 40px;
+}
+
+.descricao{
+    padding-top: 5px;
+    padding-left: 30px;
+    background-color: rgb(122, 120, 120);
+    color: rgb(19, 18, 18);
+}
+
+.descricao-content{
+    padding-left: 10px;
+    width: 95%;
 }
