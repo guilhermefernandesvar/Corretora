@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: #f9f9f9;
+        }
+
+        .pesquisa {
+            width: 400px;
+            height: 40px;
+            margin: 200px auto;
+        }
+
+        #texto{
+            width:350px ;
+            height: 40px;
+            float: left;
+            font-family: Arial;
+            font-size: 20px;
+        }
+
+        .btn{
+            width: 30px;
+            height: 30px;
+            background-color: #2f4550;
+            padding: 5px 10px;
+            cursor: pointer;
+        }
+
+        #texto:focus {
+            border: solid 2px #2f4540;
+        }
+    </style>
+</head>
+<body>
+    
+    <form class="pesquisa">
+        <input type="search" id="texto" list="historico" placeholder="Pesquisar">
+        <img src="imagems/lupa.png" alt="lupa" class="btn">
+
+        <datalist id="historico">
+            <option value="Casas"></option>
+            <option value="Apartamentos"></option>
+            <option value="Aluga-se"></option>
+        </datalist>
+    </form>
+</body>
+</html>s

@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+} 
+
+.center {
+    max-width: 1100px;
+    padding: 0 10px;
+    display: flex;
+    margin: 0 auto;
+}
+
+body {
+    background-color: rgb(80, 74, 74);
+    font-family: 'Questrial', sans-serif;
+}
+
+
+.menu-container {
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+.menu-container a{
+    display: inline-block;
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+    border: 5px solid transparent;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 70px;
+} 
+
+.content-chamada {
+    width: 60%;
+    margin-top: 20px;
+    padding: 0 60px;
+    color: white;
+    min-height: 550px;
+
+}
+
+h2 {
+    font-size: 40px;
+    margin: 20px 0;
+}
+
+h3 {
+    font-size: 35px;
+    margin: 20px 0;
+    font-weight: normal;
+    opacity: 0.6;
+}
+
+.content-chamada a {
+    display:inline-block ;
+    padding: 4px 8px;
+    padding: 4px 8px;
+    border: 1px solid white ;
+    border-radius: 20px;
+    margin: 10px 0;
+    text-decoration: none;
+    color: white;
+}
+
+.content-main {
+    min-height: 595px;
+}
+
+.img-content {
+    position: relative;
+    width: 40%;
+}
+
+.img-content img{
+    position: absolute;
+    max-width: 100%;
+}
+
+.menu a:hover{
+    background-color: rgb(55, 63, 63) ;
+    transition: 2s;
+
+}
+
+h2:hover {
+    font-size: 45px;
+    transition: 1s;
+}
+
+.restante {
+    background-color: white;
+    height: 600px;
+    width: 100%;
+}
+
+.sobre {
+    text-align: center;
+    padding-top: 45px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    font-size: 45px;
+}
+
+.vejamais:hover {
+    font-size:25px;
+    transition: 3s;
+}
+
+.sobre {
+    padding-bottom: 30px;
+    font-family: 'Questrial', sans-serif;
+}
+
+.imgmapa {
+    width: 45%;
+    height: 50%;
+
+}
+
+.imgmapa {
+    position: absolute;
+    bottom: 10;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+li {
+    font-weight: bold;
+    padding: 5px 100px ;
+    padding-top: 10px;
+}
+
+.telefone {
+    padding-top:50px;
+}
+
+ul {
+    height: 250px;
+}
+
+ul {
+    list-style: none;
+}
+
+input[type="checkbox"]{
+    display: none;
+}
+
+nav ul {
+    padding-right: 125px;
+    width: 350px;
+    position: relative;
+}
+
+.login {
+    margin-top: 30px;
+}

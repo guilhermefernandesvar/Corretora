@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(80, 74, 74);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.menu {
+    float: left;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.inputtext {
+    width: 100px;
+    border: none;
+    outline: none;
+}
+
+.buscar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 200px;
+    border-radius: 20px;
+    background-color: white;
+}
+.butao {
+    border: none;
+    background-color: transparent;
+    margin-right: 10px;
+}
+
+nav {
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-left: 25px;
+    
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    margin: 30px 15px 20px;
+    font-size: 25px;
+}
+
+h1 {
+    padding-top: 100px;
+    color: white;
+    padding-left: 20px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35px;
+}
+
+.casas{
+    width: 100%;
+    margin: 0;
+
+}
+
+.img {
+    width: 308px;
+    padding-left: 15px;
+
+}
+
+.img:hover {
+   width: 315px;
+   transition: .200s;
+   padding-top: -20px;,
+}
+
+.pesquisa {
+    width: 400px;
+    height: 40px;
+    
+}
+
+#texto{
+    width:350px ;
+    height: 40px;
+    float: left;
+    font-family: Arial;
+    font-size: 20px;
+}
+
+.btn{
+    width: 50px;
+    height: 40px;
+    background-color: #2f4550;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+#texto:focus {
+    border: solid 2px #2f4540;
+}
+
+.tabela-content{
+    float: right;
+    width: 7%;
+    padding-top: 580px;
+}
+
+.iconzap{
+    padding: 8px;
+    width: 60px;
+    position: fixed;
+    float: right;
+    border: white 1px solid;
+    border-radius: 250px;
+}

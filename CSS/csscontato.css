@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color:#3e383e
+}
+
+.tabela{
+    padding-top: 5%;
+}
+
+.tabela-content{
+    float: right;
+    width: 7%;
+    padding-right: px;
+    padding-top: 500px;
+}
+
+.iconzap{
+    padding: 8px;
+    width: 60px;
+    position: fixed;
+    float: right;
+    border: white 1px solid;
+    border-radius: 250px;
+}
