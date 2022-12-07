@@ -13,19 +13,22 @@
         <video class="video" autoplay muted loop>
             <source src="imagems/coverr-house-on-a-hill-in-alentejo-portugal-1216-1080p.mp4" type="video/mp4">
         </video>
+        <form action="cadastro.html">
         <div class="login">
             <h1 id="login">Cadastro</h1>
              <h2><label for="textUser"></label>
-            <input type="text" class="textUser" placeholder="E-mail" required></h2>
+            <input type="email" class="textUser" placeholder="E-mail" required></h2>
              <h2><label for="textUser"></label>
             <input type="text" class="textUser" placeholder="Telefone (11 111111111)" maxlength="11" required></h2>
             <h2><label for="textUser"></label>
-            <input type="password" class="textUser" placeholder="Senha"></h2>
+            <input type="password" class="textUser" placeholder="Senha" id="password" required></h2>
             <h2><label for="textUser"></label>
-             <input type="password" class="textUser" placeholder="Confirme sua senha" required></h2>
+             <input type="password" class="textUser" placeholder="Confirme sua senha" id="confirm_password" required></h2>
              <p>Já tem uma conta ? <a href="home.html" id="crie"><b>Entre</a></b></p>
-             <a href="cadastro.html"><input type="submit" id="entrar" class="submit" value="Proximo"></a>  
+             <input type="submit" id="entrar" class="submit" value="Proximo"></a>
+             </form>
         </div>
     </div>
+    <script src="js/index.js"></script>
 </body>
 </html>
